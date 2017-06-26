@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>coupling</title>
+</head>
+
+<body>
+    <h1>ToDo List</h1>
+
+    <input type="text" id="newItem" /><button id="add">Add</button>
+    <ul id="items"></ul>
+
+
+    <script type="text/html" id="itemTemplate">
+
+        <li class="red">
+            {{newItem}}
+        </li>
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
